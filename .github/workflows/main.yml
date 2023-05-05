@@ -37,5 +37,5 @@ jobs:
           file: ./src/dockerfile
           push: true
           tags: |
-            leviaf/aula-conversao-temperatura:v1
+            leviaf/aula-conversao-temperatura:${{github.run_number}}
             leviaf/aula-conversao-temperatura:latest
